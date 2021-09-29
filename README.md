@@ -24,3 +24,15 @@ npx cap open ios
 
 #run on android
 npx cap open android
+
+#run on electron
+cd electron
+npm run build
+cd ..
+npm run build
+npx cap sync @capacitor-community/electron
+npm run build
+npx cap copy @capacitor-community/electron
+npx cap open @capacitor-community/electron
+
+
