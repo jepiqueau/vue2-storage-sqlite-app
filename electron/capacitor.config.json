@@ -1,0 +1,13 @@
+{
+  "appId": "com.jeep.app.vue2.capacitordatastoragesqlite",
+  "appName": "vue2-storage-sqlite-app",
+  "bundledWebRuntime": false,
+  "npmClient": "npm",
+  "webDir": "dist",
+  "plugins": {
+    "SplashScreen": {
+      "launchShowDuration": 0
+    }
+  },
+  "cordova": {}
+}
